@@ -1,0 +1,39 @@
+.logo-container {
+  display: flex;
+  overflow: hidden;
+  justify-content: space-around;
+  white-space: nowrap;
+  width: 100%;
+  position: relative;
+ 
+}
+
+.logo1 {
+  height: 50px; 
+  margin: 2em 25px;
+  animation: slide 3s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+    /* transform: translateX(calc(-100% + var(--margin-right)*2 ));  */
+  }
+}
+
+
+.SiteLogo {
+  background-color: rgba(248, 253, 253, 0.651);
+  text-align: center;
+  padding: 20px;
+  
+}
+
+h1 {
+  position: relative;
+  top: 20px;
+  margin-bottom: 20px;
+}

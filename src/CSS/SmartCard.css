@@ -1,0 +1,60 @@
+.card-container {
+  display: flex;
+  justify-content: center; 
+  padding: 20px;
+}
+
+.smartcard {
+  position: relative; /* Important for positioning the caption */
+  width: 300px; 
+  height: 250px; 
+  overflow: hidden; 
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  margin: 15px; 
+}
+
+.smartcard-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+.smartcard-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: white;
+  padding: 10px;
+  /* transform: translateY(100%);  */
+  transition: transform 0.7s ease; /* Smooth transition for hover effect */
+}
+
+.smartcard:hover .smartcard-content {
+   /* Show caption on hover */
+   transform: translateY(30%);
+   transition: transform 0.7s ease; 
+}
+
+.smartcard-title {
+  margin-bottom: 5px;
+}
+
+.smartcard-description {
+  font-size: 0.9rem;
+}
+
+
+/* Mobile */
+@media (max-width:768px){
+  .card-container {
+      flex-wrap: wrap;
+    }
+}
+@media (max-width:769px),(max-width:1024) {
+  .card-container {
+    flex-wrap: wrap;
+  }
+}

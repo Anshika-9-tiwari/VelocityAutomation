@@ -1,0 +1,717 @@
+// Major color used in site :-
+   Red  => F51631
+   Blue => 2B318F
+   White => FFFFFF
+   Black => 000000 , 1F1F1F , 1E1E1E
+   Grey  => D9D9D9
+
+   Nav-css:-
+    .navbar {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Navbar Links */
+  .navbar-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar-links ul{
+    display: flex;
+    margin-top: 1em;
+    gap: 2.5em;
+    margin-right: 3em;
+    list-style: none;
+  }
+
+  .navbar-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    transition: color 0.3s;
+  }
+  
+  .navbar-links a:hover {
+    color: #ff6347;
+    border-bottom:1px solid #fff;
+  }
+  
+  /* Hamburger Menu */
+  .navbar-toggle {
+    display: none;
+    flex-direction:column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .navbar-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .navbar-links {
+      display: none;
+      flex-direction: column;
+      background-color: #333;
+      position: absolute;
+      top: 50px;
+      right: 20px;
+      width: 200px;
+      padding: 10px;
+    }
+
+    .navbar-links ul{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        list-style: none;
+    }
+   .navbar-links.active {
+      display: flex;
+    }
+  
+    .navbar-toggle {
+      display: flex;
+    }
+  }
+
+
+
+//cardData
+import React from 'react';
+import './CardWithCaption.css'; // Import your CSS file
+
+const CardWithCaption = ({ imageUrl, caption, altText }) => {
+  return (
+    <div className="card-container">
+      <div className="card">
+        <img src={imageUrl} alt={altText} className="card-image" />
+        <div className="caption-overlay"> {/* Overlay for caption */}
+            <p className="card-caption">{caption}</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default CardWithCaption;
+
+
+// Example usage in another component:
+const MyComponent = () => {
+  return (
+    <div>
+      <CardWithCaption
+        imageUrl="https://via.placeholder.com/300" // Replace with your image URL
+        caption="Beautiful Landscape"
+        altText="A scenic landscape"
+      />
+
+      <CardWithCaption
+        imageUrl="https://via.placeholder.com/300/0000FF/FFFFFF" // Replace with your image URL
+        caption="City at Night"
+        altText="A bustling city at night"
+      />
+      {/* ... more card components */}
+    </div>
+  );
+};
+
+
+// CardWithCaption.css (Create this file in the same directory)
+.card-container {
+  display: inline-block; /* or block if you want each card to be on a new line */
+  margin: 10px; /* Adjust margin as needed */
+  position: relative; /* Important for positioning the overlay */
+  overflow: hidden; /* Hide overflowing caption */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+.card {
+  width: 300px; 
+  height: 200px; 
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures image covers the entire card area */
+  display: block; /* Prevents a small gap at the bottom of the image */
+}
+
+.caption-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  color: white;
+  padding: 10px;
+  text-align: center;
+  /* Add transition for a smooth appearance/disappearance if desired */
+  /* transition: all 0.3s ease; */ /* Example */
+}
+
+.card-container:hover .caption-overlay { /* Show caption on hover */
+    /* background-color: rgba(0, 0, 0, 0.7); Example: slightly darker on hover*/
+    /* transform: translateY(0); Example: slide up on hover */
+}
+
+
+
+// cards1.json
+[
+  {
+    "title": "Card 1 Title",
+    "image": "/images/card1.jpg",
+    "description": "Description for card 1"
+  },
+  {
+    "title": "Card 2 Title",
+    "image": "/images/card2.png",
+    "description": "Description for card 2"
+  }
+]
+
+// cards2.json
+[
+  {
+    "title": "Card 3 Title",
+    "image": "/images/card3.gif",
+    "description": "Description for card 3"
+  },
+    {
+    "title": "Card 4 Title",
+    "image": "/images/card4.svg",
+    "description": "Description for card 4"
+  }
+]
+
+
+import React from 'react';
+import Card from './Card'; // Your card component
+import cards1Data from './cards1.json';
+import cards2Data from './cards2.json';
+
+
+function CardDisplay() {
+  return (
+    <div>
+      <h2>Card Set 1</h2>
+      <div className="card-container">
+        {cards1Data.map((card, index) => (
+          <Card key={index} {...card} /> // Spread operator passes all card properties
+        ))}
+      </div>
+
+      <h2>Card Set 2</h2>
+      <div className="card-container">
+        {cards2Data.map((card, index) => (
+          <Card key={index} {...card} />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+export default CardDisplay;
+
+
+
+import React from 'react';
+
+function Card({ title, image, description }) {
+  return (
+    <div className="card">
+      <img src={image} alt={title} />
+      <h3>{title}</h3>
+      <p>{description}</p>
+    </div>
+  );
+}
+
+export default Card;
+
+
+import React, { useState } from 'react';
+import './ContactForm.css'; // Import your CSS file
+
+const ContactForm = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+  const [submitMessage, setSubmitMessage] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsSubmitting(true); // Set submitting state
+
+    try {
+      const response = await fetch('/api/contact', { // Replace with your API endpoint
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+
+      if (response.ok) {
+        setSubmitMessage('Message sent successfully!');
+        setFormData({ name: '', email: '', message: '' }); // Clear form
+      } else {
+        const errorData = await response.json();// Try to parse JSON error
+        setSubmitMessage(`Error sending message: ${errorData.message || response.statusText}`); // Display error message
+      }
+    } catch (error) {
+      setSubmitMessage('An error occurred. Please try again later.');
+      console.error("Error:", error);
+    } finally {
+      setIsSubmitting(false); // Reset submitting state
+    }
+  };
+
+  return (
+    <div className="contact-form-container"> {/* Apply container class */}
+      <h2>Contact Us</h2>
+      <form onSubmit={handleSubmit}>
+        <div className="form-group"> {/* Apply form-group class */}
+          <label htmlFor="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div className="form-group">
+          <label htmlFor="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div className="form-group">
+          <label htmlFor="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            value={formData.message}
+            onChange={handleChange}
+            rows="5"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" disabled={isSubmitting} className="submit-button"> {/* Disable button while submitting */}
+          {isSubmitting ? 'Submitting...' : 'Submit'} {/* Show "Submitting..." */}
+        </button>
+        {submitMessage && <p className="message">{submitMessage}</p>} {/* Display message */}
+      </form>
+    </div>
+  );
+};
+
+export default ContactForm;
+
+//...........................
+const url = new URL("http://localhost:3000/api/table/tbloAvsE5WVET744Lpb/record");
+const params = {
+  fieldKeyType: "",
+  viewId: "viwhRUBjOQsEgB4rfV3",
+  cellFormat: "json"
+};
+
+Object.entries(params).forEach(([key, value]) => {
+  url.searchParams.append(key, value);
+});
+
+fetch(url, {
+  method: "GET",
+  headers: {
+    "Authorization": "Bearer teable_accQjLJ2Mu3KI5DZlk2_olPLUKERHZjBnI4trVQbAIkSG68bcnbv2wWoLsJyAWY=",
+    "Accept": "application/json"
+  }
+})
+.then(response => response.json())
+.then(data => console.log(data))
+.catch(error => console.error('Error:', error));
+
+
+
+/ shadow /
+/* Basic box shadow */
+.box {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* x-offset y-offset blur-radius color */
+}
+
+/* Box shadow with different offsets and blur */
+.box2 {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Smaller offsets and blur */
+}
+
+/* Inset box shadow (shadow inside the box) */
+.box3 {
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Multiple box shadows */
+.box4 {
+  box-shadow:
+    2px 2px 5px rgba(0, 0, 0, 0.2),  /* First shadow */
+    5px 5px 10px rgba(0, 0, 0, 0.1); /* Second shadow */
+}
+
+/* Box shadow with spread radius */
+.box5 {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.2); /* Added spread radius (2px) */
+}
+
+/* Box shadow with different color */
+.box6 {
+  box-shadow: 5px 5px 10px rgba(255, 0, 0, 0.3); /* Red shadow */
+}
+
+
+/* Example with a hover effect */
+.box7 {
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.2);
+    transition: box-shadow 0.3s ease; /* Add a transition for smooth effect */
+}
+
+.box7:hover {
+    box-shadow: 5px 5px 12px rgba(0,0,0,0.3); /* Shadow on hover */
+}
+
+
+// file download link
+const DownloadButton = ({ fileUrl, fileName }) => {
+  return (
+    <a href={fileUrl} download={fileName}>
+      <button>Download {fileName}</button>
+    </a>
+  );
+};
+
+const MyComponent = () => {
+  const fileUrl = 'path/to/your/file.pdf'; // Replace with your file URL
+  const fileName = 'my_document.pdf';      // Replace with your desired file name
+
+  return (
+    <div>
+      <DownloadButton fileUrl={fileUrl} fileName={fileName} />
+    </div>
+  );
+};
+
+export default MyComponent;
+
+
+
+{logos animation}
+import React from 'react';
+import './CompanyLogos.css'; // Import your CSS file
+
+const CompanyLogos = ({ logos }) => {
+  return (
+    <div className="company-logos-container">
+      <div className="logos-slider"> {/* The sliding container */}
+        {logos.map((logo, index) => (
+          <div key={index} className="logo-item">
+            <img src={logo} alt={`Company Logo ${index + 1}`} className="company-logo" />
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+// Sample Logo URLs (Replace with your actual logo URLs)
+const sampleLogos = [
+  'https://via.placeholder.com/100x50/FFB6C1/000000', // Placeholder 1
+  'https://via.placeholder.com/100x50/ADD8E6/000000', // Placeholder 2
+  'https://via.placeholder.com/100x50/90EE90/000000', // Placeholder 3
+  'https://via.placeholder.com/100x50/FFA07A/000000', // Placeholder 4
+  'https://via.placeholder.com/100x50/FFFFE0/000000', // Placeholder 5
+  'https://via.placeholder.com/100x50/8A2BE2/000000', // Placeholder 6
+  'https://via.placeholder.com/100x50/D2B48C/000000', // Placeholder 7
+  // ... more logos
+];
+
+
+const App = () => {
+  return (
+    <div className="app">
+      <h1>Company Logos</h1>
+      <CompanyLogos logos={sampleLogos} />
+    </div>
+  );
+};
+
+export default App;
+
+
+{logos.css}
+.company-logos-container {
+  width: 100%; /* Or a specific width */
+  overflow: hidden; /* Hide logos that overflow */
+  position: relative; /* For positioning the slider */
+}
+
+.logos-slider {
+  display: flex; /* Arrange logos horizontally */
+  animation: slide 15s linear infinite; /* Adjust duration as needed */
+}
+
+.logo-item {
+  margin-right: 20px; /* Space between logos */
+  flex-shrink: 0; /* Prevent logos from shrinking */
+}
+
+.company-logo {
+  height: 50px; /* Adjust logo height as needed */
+  width: auto;  /* Maintain aspect ratio */
+  display: block; /* Prevents small vertical spacing issues */
+}
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-100% + var(--margin-right) * 2)); } /* Calculate total width */
+}
+
+/* Make sure the CSS variables are available */
+:root {
+  --margin-right: 20px; /* Matches the margin-right in .logo-item */
+}
+
+
+.app {
+  padding: 20px;
+}
+
+
+// animated company logos
+import React, { useRef, useEffect } from 'react';
+import './LogoCarousel.css'; // Import your CSS file
+
+const LogoCarousel = ({ logos }) => {
+  const containerRef = useRef(null);
+
+  useEffect(() => {
+    const container = containerRef.current;
+    const totalWidth = container.scrollWidth;
+    const animationDuration = 10; // Duration in seconds
+
+    let animationId;
+
+    const animate = () => {
+      let currentPosition = container.scrollLeft;
+      const maxPosition = totalWidth - container.offsetWidth;
+
+      animationId = requestAnimationFrame(function animateStep() {
+        currentPosition += 2; // Adjust scrolling speed
+
+        if (currentPosition >= maxPosition) {
+          currentPosition = 0; // Reset to the beginning
+        }
+
+        container.scrollLeft = currentPosition;
+        animationId = requestAnimationFrame(animateStep);
+      });
+    };
+
+    animate(); // Start animation on mount
+
+    return () => {
+      cancelAnimationFrame(animationId); // Stop animation on unmount
+    };
+  }, []); // Empty dependency array ensures this runs only once on mount/unmount
+
+  return (
+    <div className="logo-carousel-container"> {/* Container for overflow and styling */}
+      <div className="logo-carousel" ref={containerRef}> {/* Inner container with logos */}
+        {logos.map((logo, index) => (
+          <div key={index} className="logo-item"> {/* Individual logo wrapper */}
+            <img src={logo} alt={`Logo ${index + 1}`} />
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default LogoCarousel;
+
+
+// frontend/src/components/ContactForm.js
+import React, { useState } from 'react';
+
+const ContactForm = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+  const [successMessage, setSuccessMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
+  const [isLoading, setIsLoading] = useState(false); // Add loading state
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsLoading(true); // Set loading to true
+
+    try {
+      const response = await fetch('/api/contact', { // Your API endpoint
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setFormData({ name: '', email: '', message: '' }); // Clear the form
+        setSuccessMessage('Message sent successfully!');
+        setErrorMessage('');
+      } else {
+        const errorData = await response.json(); // Get error details from backend
+        setErrorMessage(errorData.message || 'Error sending message.'); // Display error message from backend or default error
+        setSuccessMessage('');
+      }
+    } catch (error) {
+      setErrorMessage('An error occurred. Please try again later.');
+      setSuccessMessage('');
+      console.error('Error:', error);
+    } finally {
+      setIsLoading(false); // Set loading to false after request completes
+    }
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      {successMessage && <div className="success-message">{successMessage}</div>}
+      {errorMessage && <div className="error-message">{errorMessage}</div>}
+
+      <label htmlFor="name">Name:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        value={formData.name}
+        onChange={handleChange}
+        required
+      />
+
+      <label htmlFor="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        value={formData.email}
+        onChange={handleChange}
+        required
+      />
+
+      <label htmlFor="message">Message:</label>
+      <textarea
+        id="message"
+        name="message"
+        value={formData.message}
+        onChange={handleChange}
+        required
+      />
+
+      <button type="submit" disabled={isLoading}> {/* Disable button while loading */}
+        {isLoading ? 'Sending...' : 'Send Message'} {/* Show loading text */}
+      </button>
+    </form>
+  );
+};
+
+export default ContactForm;
+
+
+
+// backend/server.js (Example using Express.js)
+const express = require('express');
+const bodyParser = require('body-parser');
+const nodemailer = require('nodemailer'); // For sending emails
+const app = express();
+const port = 5000; // Choose your port
+
+app.use(bodyParser.json());
+
+// Configure Nodemailer (replace with your email credentials)
+const transporter = nodemailer.createTransport({
+  service: 'gmail', // Or your email service
+  auth: {
+    user: 'your_email@gmail.com', // Your email
+    pass: 'your_email_password', // Your email password or app password (recommended)
+  },
+});
+
+app.post('/api/contact', (req, res) => {
+  const { name, email, message } = req.body;
+
+  if (!name || !email || !message) {
+    return res.status(400).json({ message: 'All fields are required.' }); // Send back error to the frontend
+  }
+
+  const mailOptions = {
+    from: 'your_email@gmail.com',
+    to: 'recipient_email@example.com', // Your recipient email
+    subject: 'New Contact Form Submission',
+    text: `
+      Name: ${name}
+      Email: ${email}
+      Message: ${message}
+    `,
+  };
+
+  transporter.sendMail(mailOptions, (error, info) => {
+    if (error) {
+      console.error('Error sending email:', error);
+      return res.status(500).json({ message: 'Failed to send message.' }); // Send error back to frontend
+    } else {
+      console.log('Email sent:', info.response);
+      return res.status(200).json({ message: 'Message sent successfully!' }); // Send success back to the frontend
+    }
+  });
+});
+
+app.listen(port, () => {
+  console.log(`Server listening on port ${port}`);
+});
