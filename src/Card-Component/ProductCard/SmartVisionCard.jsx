@@ -1,11 +1,11 @@
 import React from 'react'
 import SmartCard from '../SmartCard'
-
+import {Link} from 'react-router-dom'
 
 const SmartVisionCard = () => {
   const cardData2 =[
   {
-    image: "./public/assets/electricpower.png",
+    image: "./public/assets/PLCSCADA.jpeg",
     title: 'Anomaly Detection',
   },
   {
@@ -26,11 +26,13 @@ const SmartVisionCard = () => {
     <>
      <div style={{backgroundColor:'rgba(240, 248, 255, 0.271)'}}>
         <h1 className='p-4 m-0'>Overview</h1>
-        <div className="card-container gap-4"> 
-          {cardData2.map((card, index) => (
-            <SmartCard key={index} {...card} /> 
-          ))}
-        </div>
+        <Link to='/quality'>
+          <div className="card-container gap-4"> 
+            {cardData2.map((card, index) => (
+              <SmartCard key={index} {...card} /> 
+            ))}
+          </div>
+        </Link>
       </div>
     </>
   )

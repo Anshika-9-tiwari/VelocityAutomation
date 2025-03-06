@@ -84,11 +84,11 @@ function Solutions() {
               </ul>
             </div>
             <div className="solution-image-container">
-            <img src="./public/assets/electricpower.png" alt="Images" /> 
+            <img src="./public/assets/PLCSCADA.jpeg" alt="Images" /> 
             </div>
 
             <div className="solution-image-container">
-            <img src="./public/assets/Security.jpeg" alt="Images" /> 
+            <img src="./public/assets/security.png" alt="Images" /> 
             </div>
             <div className="content-container">
               <h2>Security</h2>
@@ -109,7 +109,7 @@ function Solutions() {
             </div>
 
             <div className="solution-image-container">
-            <img src="./public/assets/img2.jpg" alt="Images" /> 
+            <img src="./public/assets/SteelPlants.jpeg" alt="Images" /> 
             </div>
             <div className="content-container">
               <h2>Material</h2>

@@ -33,7 +33,7 @@ import {Link} from 'react-router-dom'
             <div className=" border rounded-lg shadow-lg p-4 ">
               <div className="card">
                   <Link to="foodbeverages" style={{textDecoration:'none'}}>
-                    <img src="./public/assets/img2.jpg" alt="title" className="card-image-top" />
+                    <img src="./public/assets/foodbeverages.jpeg" alt="title" className="card-image-top" />
                     <div className="card-body">
                       <h2 className="card-title">Food & Beverages</h2>
                       <p className="card-text">Smart Taste, Savvy Choices: AI Revolutionizing Food and Beverages</p>

@@ -1,10 +1,12 @@
 import React from 'react'
 import SmartCard from '../SmartCard'
+import { Link } from 'react-router-dom'
+
 
 const SmartSecurityCard = () => {
   const cardData3 =[
     {
-      image: "./public/assets/smartgate.png",
+      image: "./public/assets/security.png",
       title: 'Smart Gate & ANPR',
     },
     {
@@ -22,11 +24,13 @@ const SmartSecurityCard = () => {
     <>
      <div  style={{backgroundColor:'white'}}>
         <h1 className='p-4 m-3'>Overview</h1>
-        <div className="card-container">
-          {cardData3.map((card, index) => (
-            <SmartCard key={index} {...card} /> 
-          ))}
-        </div>
+        <Link to='/smartgatesecurity'>
+          <div className="card-container">
+            {cardData3.map((card, index) => (
+              <SmartCard key={index} {...card} /> 
+            ))}
+          </div>
+        </Link>
       </div>
     </>
   )

@@ -101,10 +101,10 @@
     }
   }
   
-  @media (min-width: 1024px){ 
+  @media (min-width:1324px){ 
     .two-div-section {
       flex-direction: row; 
-      margin: 0em;
+      margin: 0em 3em;
     }
   }
 

@@ -75,7 +75,7 @@ const SmartWorker = () => {
         </p>
       </div>
       <div className="image-div">
-        <img src="./public/assets/FaceRecog.png" alt="Products-smart-worker" />
+        <img src="./public/assets/WorkforceCost.jpeg" alt="Products-smart-worker" />
       </div>
     </div>
     <div className="product-container">
@@ -85,28 +85,28 @@ const SmartWorker = () => {
       <div className="product-content-container">
         <h1 className='mb-4'>Product Features</h1>
         <p>
-          Facial recognition system rely on distinct facial characteristics for identification and verification. It analyzes facial features such as the size and shape of the eyes, nose, and mouth, as well as the distances between these features, to create a unique facial template for each individual.
+          Workforce Analytics solution offers various benefits and features like:
         </p>
         <ul style={{listStyle:'none'}}>
           <li>
             <PiSealCheckBold  style={{marginRight:'10px'}}/> 
-            <span>FR Kiosk/ Turnstile IoT integration   </span>
+            <span>Real-time operational costs monitoring</span>
           </li>
           <li>
             <PiSealCheckBold style={{marginRight:'10px'}}/>
-            <span>Geo-Fencing Attendance via App</span>
+            <span>Escalation alerts for target monthly budget</span>
           </li>
           <li>
             <PiSealCheckBold style={{marginRight:'10px'}}/> 
-            <span>Fraud Prevention- Liveliness Detection </span>
+            <span>Anomaly detection in resource allocation</span>
           </li>
           <li>
             <PiSealCheckBold style={{marginRight:'10px'}}/>
-            <span>Offline Attendance Mode</span>
+            <span>Optimized plans & automated resource mapping</span>
           </li>
           <li>
             <PiSealCheckBold style={{marginRight:'10px'}}/>
-            <span>Attendance Reports & Analytics</span>
+            <span>Contractor Management</span>
           </li>
         </ul>
       </div>
@@ -114,7 +114,7 @@ const SmartWorker = () => {
 
     <div className="main-div">
       <div className="image-div">
-        <img src="./public/assets/FaceRecog.png" alt="Products-smart-worker" />
+        <img src="./public/assets/saleforce.png" alt="Products-smart-worker" />
       </div>
       <div className="text-div">
         <h1>Field Salesforce Monitoring</h1>
@@ -136,28 +136,28 @@ const SmartWorker = () => {
       <div className="product-content-container">
         <h1 className='mb-4'>Product Features</h1>
         <p>
-          Facial recognition system rely on distinct facial characteristics for identification and verification. It analyzes facial features such as the size and shape of the eyes, nose, and mouth, as well as the distances between these features, to create a unique facial template for each individual.
+          The Field Salesforce Monitoring solution offers features like:
         </p>
         <ul style={{listStyle:'none'}}>
           <li>
             <PiSealCheckBold  style={{marginRight:'10px'}}/> 
-            <span>FR Kiosk/ Turnstile IoT integration   </span>
+            <span>Mobile application for salesforce</span>
           </li>
           <li>
             <PiSealCheckBold style={{marginRight:'10px'}}/>
-            <span>Geo-Fencing Attendance via App</span>
+            <span>Geo-restricted attendance</span>
           </li>
           <li>
             <PiSealCheckBold style={{marginRight:'10px'}}/> 
-            <span>Fraud Prevention- Liveliness Detection </span>
+            <span>GPS based visit adherence</span>
           </li>
           <li>
             <PiSealCheckBold style={{marginRight:'10px'}}/>
-            <span>Offline Attendance Mode</span>
+            <span>Real-time user visit tracking</span>
           </li>
           <li>
             <PiSealCheckBold style={{marginRight:'10px'}}/>
-            <span>Attendance Reports & Analytics</span>
+            <span>Attendance reports & analytics</span>
           </li>
         </ul>
       </div>
@@ -174,7 +174,7 @@ const SmartWorker = () => {
         </p>
       </div>
       <div className="image-div">
-        <img src="./public/assets/FaceRecog.png" alt="Products-smart-worker" />
+        <img src="./public/assets/SystemEnt.png" alt="Products-smart-worker" />
       </div>
     </div>
     <div className="product-container">
@@ -184,28 +184,28 @@ const SmartWorker = () => {
       <div className="product-content-container">
         <h1 className='mb-4'>Product Features</h1>
         <p>
-          Facial recognition system rely on distinct facial characteristics for identification and verification. It analyzes facial features such as the size and shape of the eyes, nose, and mouth, as well as the distances between these features, to create a unique facial template for each individual.
+          Workforce Planning Solution has the following features:
         </p>
         <ul style={{listStyle:'none'}}>
           <li>
             <PiSealCheckBold  style={{marginRight:'10px'}}/> 
-            <span>FR Kiosk/ Turnstile IoT integration   </span>
+            <span>Workforce detection in a custom geo-fenced area</span>
+          </li>
+          <li>
+            <PiSealCheckBold style={{marginRight:'10px'}}/>
+            <span>Workforce availability analysis</span>
+          </li>
+          <li>
+            <PiSealCheckBold style={{marginRight:'10px'}}/> 
+            <span>Mapping of machine availability with workforce availability</span>
           </li>
           <li>
             <PiSealCheckBold style={{marginRight:'10px'}}/>
             <span>Geo-Fencing Attendance via App</span>
           </li>
           <li>
-            <PiSealCheckBold style={{marginRight:'10px'}}/> 
-            <span>Fraud Prevention- Liveliness Detection </span>
-          </li>
-          <li>
             <PiSealCheckBold style={{marginRight:'10px'}}/>
-            <span>Offline Attendance Mode</span>
-          </li>
-          <li>
-            <PiSealCheckBold style={{marginRight:'10px'}}/>
-            <span>Attendance Reports & Analytics</span>
+            <span>Real time alerts</span>
           </li>
         </ul>
       </div>
@@ -213,7 +213,7 @@ const SmartWorker = () => {
 
     <div className="main-div">
       <div className="image-div">
-        <img src="./public/assets/FaceRecog.png" alt="Products-smart-worker" />
+        <img src="./public/assets/PPEMonitoring.png" alt="Products-smart-worker" />
       </div>
       <div className="text-div">
         <h1>PPE Monitoring</h1>
@@ -235,28 +235,28 @@ const SmartWorker = () => {
       <div className="product-content-container">
         <h1 className='mb-4'>Product Features</h1>
         <p>
-          Facial recognition system rely on distinct facial characteristics for identification and verification. It analyzes facial features such as the size and shape of the eyes, nose, and mouth, as well as the distances between these features, to create a unique facial template for each individual.
+          PPE Monitoring solution offers various benefits and features like:
         </p>
         <ul style={{listStyle:'none'}}>
           <li>
             <PiSealCheckBold  style={{marginRight:'10px'}}/> 
-            <span>FR Kiosk/ Turnstile IoT integration   </span>
+            <span>Detection of workers not wearing PPE monitoring kit</span>
           </li>
           <li>
             <PiSealCheckBold style={{marginRight:'10px'}}/>
-            <span>Geo-Fencing Attendance via App</span>
+            <span>Alerts on not wearing helmet, shoes & other wearables</span>
           </li>
           <li>
             <PiSealCheckBold style={{marginRight:'10px'}}/> 
-            <span>Fraud Prevention- Liveliness Detection </span>
+            <span>Safety solution for unsafe acts and unsafe conditions</span>
           </li>
           <li>
             <PiSealCheckBold style={{marginRight:'10px'}}/>
-            <span>Offline Attendance Mode</span>
+            <span>Computer vision based inspection</span>
           </li>
           <li>
             <PiSealCheckBold style={{marginRight:'10px'}}/>
-            <span>Attendance Reports & Analytics</span>
+            <span>AI CCTV Surveillance</span>
           </li>
         </ul>
       </div>

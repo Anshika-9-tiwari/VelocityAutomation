@@ -71,7 +71,7 @@ const WarehouseLogistics = () => {
         <div style={{backgroundColor:'#fafdfd'}} className="container">
           <div className="image-container">
             <img
-              src="./public/assets/Security.jpeg"
+              src="./public/assets/security.png"
               alt="Descriptive Alt Text"
               className="responsive-image"
             />

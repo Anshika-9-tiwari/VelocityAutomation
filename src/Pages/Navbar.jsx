@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="logo"><img src="./public/assets/VA-Logo2.png" alt="" width={200}/></div>
+      <div className="logo"><img src="./public/assets/VelocityALogo1.png" alt="" width={200}/></div>
       <ul className={`nav-links ${isMobile ? "mobile" : ""}`}>
         <li>
           <a href="/">Home</a>
@@ -28,12 +28,12 @@ const Navbar = () => {
           <span>Solutions</span>
           {dropdown === "solutions" && (
             <ul className="dropdown-menu">
-              <li><a href="solutions">People</a></li>
-              <li><a href="solutions">Machine</a></li>
-              <li><a href="solutions">Business</a></li>
-              <li><a href="solutions">Quality</a></li>
-              <li><a href="solutions">Security</a></li>
-              <li><a href="solutions">Material</a></li>
+              <li><a href="people">People</a></li>
+              <li><a href="machine">Machine</a></li>
+              <li><a href="people">Business</a></li>
+              <li><a href="quality">Quality</a></li>
+              <li><a href="security">Security</a></li>
+              <li><a href="machine">Material</a></li>
             </ul>
           )}
         </li>

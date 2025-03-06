@@ -47,7 +47,7 @@ const CapabilityHomeCardList = () => {
             ))}
         </div>
       </Link>
-
+      
       <Link to='capabilities' style={{textDecoration:'none'}}>
         <div className='capability-box' style={{marginBottom:'4em'}}> 
             {homeCard2.map((card, index) => (

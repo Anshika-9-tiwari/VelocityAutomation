@@ -1,6 +1,6 @@
 import React from 'react';
 import SmartCard from './SmartCard';
-
+import {Link} from 'react-router-dom'
 
 const SmartCardList = () => {
   const cardData1 = [
@@ -19,7 +19,6 @@ const SmartCardList = () => {
     {
       image: "./public/assets/SystemEnt.png",
       title: 'Workforce Presence And Planing',
-      // description: 'Description for card 3.  Even more text here.'
     },
     {
       image: "./public/assets/PPEMonitoring.png",
@@ -30,7 +29,7 @@ const SmartCardList = () => {
 
   const cardData2 =[
     {
-      image: "./public/assets/smartgate.png",
+      image: "./public/assets/security.png",
       title: 'Smart Gate & ANPR',
     },
     {
@@ -46,7 +45,7 @@ const SmartCardList = () => {
 
   const cardData3 =[
     {
-      image: "./public/assets/electricpower.png",
+      image: "./public/assets/PLCSCADA.jpeg",
       title: 'Anomaly Detection',
     },
     {
@@ -82,38 +81,46 @@ const SmartCardList = () => {
     <>
       <div style={{backgroundColor:'beige'}}>
         <h1 className='p-4 m-3'>Smart Worker</h1>
-        <div className="card-container"> {/* Container to arrange cards */}
-          {cardData1.map((card, index) => (
-            <SmartCard key={index} {...card} /> // Spread operator to pass props
-          ))}
-        </div>
+        <Link to='/facial-recognition'>
+          <div className="card-container"> 
+            {cardData1.map((card, index) => (
+              <SmartCard key={index} {...card} />
+            ))}
+          </div>
+        </Link>
       </div>
 
       <div style={{backgroundColor:'white'}}>
         <h1 className='p-4 m-3'>Smart Vision</h1>
-        <div className="card-container gap-4"> 
-          {cardData2.map((card, index) => (
-            <SmartCard key={index} {...card} /> 
-          ))}
-        </div>
+        <Link to='/quality'>
+          <div className="card-container gap-4"> 
+            {cardData3.map((card, index) => (
+              <SmartCard key={index} {...card} /> 
+            ))}
+          </div>
+        </Link>
       </div>
 
       <div  style={{backgroundColor:'beige'}}>
         <h1 className='p-4 m-3'>Smart Security</h1>
-        <div className="card-container">
-          {cardData3.map((card, index) => (
-            <SmartCard key={index} {...card} /> 
-          ))}
-        </div>
+        <Link to='/smartgatesecurity'>
+          <div className="card-container">
+            {cardData2.map((card, index) => (
+              <SmartCard key={index} {...card} /> 
+            ))}
+          </div>
+        </Link>
       </div>
       
       <div>
         <h1 className='p-4 m-3'>Smart Machine</h1>
-        <div className="card-container gap-4" > 
-          {cardData4.map((card, index) => (
-            <SmartCard key={index} {...card} /> 
-          ))}
-        </div>
+        <Link to='machine-monitoring'>
+          <div className="card-container gap-4" > 
+            {cardData4.map((card, index) => (
+              <SmartCard key={index} {...card} /> 
+            ))}
+          </div>
+        </Link>
       </div>
    </>
     

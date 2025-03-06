@@ -65,26 +65,26 @@ function Home() {
           
           {/* Choosen us */}
           <div className='choosen-box1 '>
-              <div className='item-choosen1'>
-                 <img src="./public/assets/Robotics.jpeg" width={530} height={300} alt="" style={{borderRadius:'18px', marginBottom:'1em'}}/>
-              </div>
-              <div className=' item-choosen2'>
-               <h1>Industry  Redefined</h1>
-               <p>
-                  Velocity Automation is a leading technology company focused on delivering cutting-edge solutions and services that empower    businesses to prosper in the digital era of Industry.
-               </p>
-              </div>
+            <div className='item-choosen1'>
+                <img src="./public/assets/Robotics.jpeg" width={530} height={300} alt="" style={{borderRadius:'18px', marginBottom:'1em'}}/>
+            </div>
+            <div className=' item-choosen2'>
+              <h1>Industry  Redefined</h1>
+              <p>
+                Velocity Automation is a leading technology company focused on delivering cutting-edge solutions and services that empower    businesses to prosper in the digital era of Industry.
+              </p>
+            </div>
           </div>
           <div className='choosen-box2 '>
-              <div className=' item-choosen2 mt-5'>
-               <h3>Your Partner in Achieving Growth Through Digital Transformation</h3>
-               <p>
-                  We support businesses in effectively managing digital transformation initiatives and achieving tangible growth by harnessing the   collective strength of our experience and extensive network of expertise.
-               </p>
-              </div>
-              <div className='item-choosen1' style={{marginRight:'0.2em', borderRadius:'18px 0px'}}>
-                 <img src="./public/assets/plcprogramming.jpeg" width={530} height={300} alt="" style={{borderRadius:'18px 0px', marginTop:'1em'}}/>
-              </div>
+            <div className=' item-choosen2 mt-5'>
+              <h3>Your Partner in Achieving Growth Through Digital Transformation</h3>
+              <p>
+                We support businesses in effectively managing digital transformation initiatives and achieving tangible growth by harnessing the   collective strength of our experience and extensive network of expertise.
+              </p>
+            </div>
+            <div className='item-choosen1' style={{marginRight:'0.2em', borderRadius:'18px 0px'}}>
+                <img src="./public/assets/PLCSCADA.jpeg" width={530} height={300} alt="" style={{borderRadius:'18px 0px', marginTop:'1em'}}/>
+            </div>
           </div>
       </div>  
     </>

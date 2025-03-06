@@ -1,5 +1,6 @@
 import React from 'react'
 import SmartCard from '../SmartCard'
+import { Link } from 'react-router-dom'
 
 
 const SmartMachineCard = () => {
@@ -22,11 +23,13 @@ const SmartMachineCard = () => {
     <>
     <div>
         <h1 className='p-4 m-3'>Overview</h1>
-        <div className="card-container gap-4" > 
-          {cardData4.map((card, index) => (
-            <SmartCard key={index} {...card} /> 
-          ))}
-        </div>
+        <Link to='/machine-monitoring'>
+          <div className="card-container gap-4" > 
+            {cardData4.map((card, index) => (
+              <SmartCard key={index} {...card} /> 
+            ))}
+          </div>
+        </Link>
       </div>
     </>
   )

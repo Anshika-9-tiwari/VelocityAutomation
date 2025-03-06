@@ -1,7 +1,6 @@
 import React from 'react'
 import SmartCardList from '../Card-Component/SmartCardList';
 import '../CSS/smartfactory.css';
-
 import ContactImp from '../Components/ContactImp';
 
 function SmartFactory() {

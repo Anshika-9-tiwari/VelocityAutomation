@@ -1,6 +1,7 @@
 import React from 'react'
 import SmartVisionCard from '../../Card-Component/ProductCard/SmartVisionCard'
 import { PiSealCheckBold } from "react-icons/pi";
+import ContactImp from '../../Components/ContactImp';
 
 const SmartVision = () => {
   return (
@@ -136,6 +137,10 @@ const SmartVision = () => {
             Dive into a realm of precision and efficiency as our technology utilizes sophisticated algorithms and cutting-edge techniques for accurate and reliable object measurements.
           </p>
         </div>
+      </div>
+
+      <div>
+       <ContactImp/>
       </div>
    </>
   )

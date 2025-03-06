@@ -21,20 +21,22 @@ function Capabilities() {
 
 
       {/*Artificial Intelligence  */}
-      <div id='artificialIntelligence' className='capability-container'>
-        <div className='capability-content1'>
-          <span><img src="./public/assets/AI-Pic.jpeg" alt="" /></span>
+      <div id="artificial-intelligence">
+        <div className='capability-container'>
+          <div className='capability-content1'>
+            <span><img src="./public/assets/AI-Pic.jpeg" alt="" /></span>
+          </div>
+          <div className='capability-content2'>
+            <h1  style={{color:'blueviolet'}}>Artificial Intelligence</h1>
+            <p>Artificial intelligence (AI) solutions encompass a wide range of applications and technologies that aim to mimic human intelligence and perform tasks that typically require human intelligence, such as problem-solving, learning, perception, and decision-making.</p>
+            <p>Our AI solutions are being used in various industries and domains to improve efficiency, automation, and decision support.</p>
+          </div>
         </div>
-        <div className='capability-content2'>
-          <h1  style={{color:'blueviolet'}}>Artificial Intelligence</h1>
-          <p>Artificial intelligence (AI) solutions encompass a wide range of applications and technologies that aim to mimic human intelligence and perform tasks that typically require human intelligence, such as problem-solving, learning, perception, and decision-making.</p>
-          <p>Our AI solutions are being used in various industries and domains to improve efficiency, automation, and decision support.</p>
-        </div>
-      </div>
 
-      {/* Our Success Story */}
-      <div>
-        <CapabilityCardList1/>
+       {/* Our Success Story */}
+        <div>
+          <CapabilityCardList1/>
+        </div>
       </div>
       
      
