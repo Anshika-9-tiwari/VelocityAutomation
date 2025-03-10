@@ -70,7 +70,7 @@ const Manufacturing = () => {
         <div style={{backgroundColor:'#fafdfd '}} className="container">
           <div className="image-container">
             <img
-              src="./public/assets/img2.jpg"
+              src="./public/assets/warehousepic.jpeg"
               alt="Descriptive Alt Text"
               className="responsive-image"
             />
@@ -97,7 +97,7 @@ const Manufacturing = () => {
           </div>
           <div className="image-container">
             <img
-              src="./public/assets/img2.jpg"
+              src="./public/assets/warehousemanagement.jpeg"
               alt="Descriptive Alt Text"
               className="responsive-image"
             />

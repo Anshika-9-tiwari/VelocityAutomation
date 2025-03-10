@@ -60,7 +60,7 @@ const Security = () => {
         </div>
         <div className='choosen-box1 '>
           <div className='item-choosen1'>
-              <img src="./public/assets/Robotics.jpeg" width={530} height={300} alt="" style={{borderRadius:'18px', marginBottom:'1em'}}/>
+              <img src="./public/assets/warehousemanagement.jpeg" width={530} height={300} alt="" style={{borderRadius:'18px', marginBottom:'1em'}}/>
           </div>
           <div className=' item-choosen2'>
             <h1>Boundary Management System</h1>
@@ -83,7 +83,7 @@ const Security = () => {
             </p>
           </div>
           <div className='item-choosen1' style={{marginRight:'0.2em', borderRadius:'18px 0px'}}>
-              <img src="./public/assets/PLCSCADA.jpeg" width={530} height={300} alt="" style={{borderRadius:'18px 0px', marginTop:'1em'}}/>
+              <img src="./public/assets/warehouse.jpeg" width={530} height={300} alt="" style={{borderRadius:'18px 0px', marginTop:'1em'}}/>
           </div>
         </div>
 

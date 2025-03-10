@@ -80,7 +80,7 @@ const SmartWorker = () => {
     </div>
     <div className="product-container">
       <div className="product-image-container">
-        <img src="./public/assets/ObjectSegmen.png" alt="Your Image" />
+        <img src="./public/assets/PLCProtocol.jpeg" alt="Your Image" />
       </div>
       <div className="product-content-container">
         <h1 className='mb-4'>Product Features</h1>
@@ -179,7 +179,7 @@ const SmartWorker = () => {
     </div>
     <div className="product-container">
       <div className="product-image-container">
-        <img src="./public/assets/ObjectSegmen.png" alt="Your Image" />
+        <img src="./public/assets/Software&ScadaSystem.png" alt="Your Image" />
       </div>
       <div className="product-content-container">
         <h1 className='mb-4'>Product Features</h1>
@@ -230,7 +230,7 @@ const SmartWorker = () => {
     </div>
     <div className="product-container">
       <div className="product-image-container">
-        <img src="./public/assets/plcprogramming.jpeg" alt="Your Image" />
+        <img src="./public/assets/PLCProtocol.jpeg" alt="Your Image" />
       </div>
       <div className="product-content-container">
         <h1 className='mb-4'>Product Features</h1>
