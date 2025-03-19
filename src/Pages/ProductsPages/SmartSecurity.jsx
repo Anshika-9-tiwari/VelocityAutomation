@@ -8,7 +8,7 @@ const SmartSecurity = () => {
   return (
     <>
       <div className="banner">
-        <img src='./public/assets/productbanner.jpeg' alt='' className="banner-image" /> 
+        <img src='./public/assets/Productbanner.jpeg' alt='' className="banner-image" /> 
         <div className="banner-caption">
           <h1>Smart Security</h1>
         </div>
@@ -20,7 +20,7 @@ const SmartSecurity = () => {
 
       <div className="main-div">
           <div className="image-div">
-            <img src="./public/assets/automaticsmartgate.jpeg" alt="Products-smart-worker" />
+            <img src="./public/assets/Automaticsmartgate.jpeg" alt="Products-smart-worker" />
           </div>
           <div className="text-div">
             <h1>Smart Gate & ANPR</h1>
@@ -34,7 +34,7 @@ const SmartSecurity = () => {
         </div>
         <div className="product-container">
           <div className="product-image-container">
-            <img src="./public/assets/plcprogramming.jpeg" alt="Your Image" />
+            <img src="./public/assets/plc_programming.jpeg" alt="Your Image" />
           </div>
           <div className="product-content-container">
             <h1 className='mb-4'>Product Features</h1>
@@ -77,12 +77,12 @@ const SmartSecurity = () => {
           </p>
         </div>
         <div className="image-div">
-          <img src="./public/assets/warehouse.jpeg" alt="Products-smart-worker" />
+          <img src="./public/assets/Warehouse.jpeg" alt="Products-smart-worker" />
         </div>
       </div>
       <div className="product-container">
         <div className="product-image-container">
-          <img src="./public/assets/PLCProtocol.jpeg" alt="Your Image" />
+          <img src="./public/assets/PLC_Protocol.jpeg" alt="Your Image" />
         </div>
         <div className="product-content-container">
           <h1 className='mb-4'>Product Features</h1>
@@ -116,7 +116,7 @@ const SmartSecurity = () => {
     
       <div className="main-div">
         <div className="image-div">
-          <img src="./public/assets/warehousemanagement.jpeg" alt="Products-smart-worker" />
+          <img src="./public/assets/Warehousemanage.jpeg" alt="Products-smart-worker" />
         </div>
         <div className="text-div">
           <h1>Shoplifting Detection</h1>
@@ -130,7 +130,7 @@ const SmartSecurity = () => {
       </div>
       <div className="product-container">
         <div className="product-image-container">
-          <img src="./public/assets/Software&ScadaSystem.png" alt="Your Image" />
+          <img src="./public/assets/Software&ScadaSys.png" alt="Your Image" />
         </div>
         <div className="product-content-container">
           <h1 className='mb-4'>Product Features</h1>

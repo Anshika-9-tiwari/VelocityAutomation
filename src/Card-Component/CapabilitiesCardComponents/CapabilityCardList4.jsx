@@ -4,15 +4,15 @@ import CapabilitiesCard from './CapabilitiesCard'
 const CapabilityCardList4 = () => {
   const cardData4 =[
     {
-      image: "./public/assets/machineMonitoring.jpg",
+      image: "./public/assets/MachineMonitoring.jpg",
       title: 'Machine Monitoring'
     },
     {
-      image: "./public/assets/EnergyMonitoring .jpg",
+      image: "./public/assets/Energy_Monitoring .jpg",
       title: 'Energy Monitoring'
     },
     {
-      image: "./public/assets/PLCSCADA.jpeg",
+      image: "./public/assets/PLC_SCADA.jpeg",
       title: 'Condition based monitoring'
     }
   ]

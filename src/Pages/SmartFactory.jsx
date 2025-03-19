@@ -8,7 +8,7 @@ function SmartFactory() {
     <>
     <div>
         <div className="banner">
-            <img src='./public/assets/smartfactorybanner.jpeg' alt='' className="banner-image" /> 
+            <img src='./public/assets/Smartfactorybanner.jpeg' alt='' className="banner-image" /> 
             <div className="banner-caption">
               <h2 style={{fontSize:'2.5em'}}>Smart Factory</h2>
             </div>
@@ -20,14 +20,14 @@ function SmartFactory() {
             <h1 className='mt-4 , mb-4'>Overview</h1>
             <p>A smart factory, also known as a smart manufacturing facility or Industry 4.0, is a highly automated and technologically advanced manufacturing environment that leverages cutting-edge technologies to improve efficiency, productivity, and flexibility in production processes. The concept of smart factories is a key component of the fourth industrial revolution (Industry 4.0), which focuses on the integration of digital technologies into manufacturing.</p>
           </div>
-          <div className='factory-box' ><img src="./public/assets/SystemEnt.png" alt="" /></div>
+          <div className='factory-box' ><img src="./public/assets/System_Ent.png" alt="" /></div>
         </div>
 
 
      {/* Images-Div */}
         <div className='img-box grid-cols-1'>
           <div className='img-boxDiv'>
-             <img src="./public/assets/ScadaSys.jpg" alt="" />
+             <img src="./public/assets/ScadaSystem.jpg" alt="" />
           </div>
         </div>
 
@@ -43,8 +43,8 @@ function SmartFactory() {
           </div>
 
           <div className='approach-box2'>
-              <div className='img-div rounded-lg shadow-lg'><img src="./public/assets/IndusFac.jpg" alt="" /></div>
-              <div className='img-div rounded-lg shadow-lg'><img src="./public/assets/automotive.jpeg" alt="" /></div>
+              <div className='img-div rounded-lg shadow-lg'><img src="./public/assets/IndustryFac.jpg" alt="" /></div>
+              <div className='img-div rounded-lg shadow-lg'><img src="./public/assets/Automotive.jpeg" alt="" /></div>
           </div>
         </div>
 

@@ -3,14 +3,13 @@ import '../CSS/CompanyLogos.css'
 
 const CompanyLogos = () => {
   const companies = [
-    './public/assets/pprm-logo.png',
-    './public/assets/Varun-Beverages.png',
-    './public/assets/ALP-LOGO.png',
-    './public/assets/fortune-logo.png',
-    './public/assets/sambhv-logo.png',
-   
-    './public/assets/YETIBrewery-logo.png',
-    './public/assets/Esskay-logo.jpg',
+    './public/assets/pprm-Logo.png',
+    './public/assets/VarunBeverages.png',
+    './public/assets/ALP-Logo.png',
+    './public/assets/Fortune-logo.png',
+    './public/assets/Sambhv-logo.png',
+    './public/assets/YETIBrewery-Logo.png',
+    './public/assets/Esskay-Logo.jpg',
   ];
 
   return (

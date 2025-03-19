@@ -6,16 +6,16 @@ import { Link } from 'react-router-dom'
 const SmartSecurityCard = () => {
   const cardData3 =[
     {
-      image: "./public/assets/security.png",
+      image: "./public/assets/Security.png",
       title: 'Smart Gate & ANPR',
     },
     {
-      image: "./public/assets/Warehouse.jpeg",
+      image: "./public/assets/Warehousepic.jpeg",
       title: 'Boundary Management System',
       
     },
     {
-      image: "./public/assets/soflifting.png",
+      image: "./public/assets/Soflifting.png",
       title: 'Shoplifting Detection',
     }
   ]

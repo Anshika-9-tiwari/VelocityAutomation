@@ -8,7 +8,7 @@ const SmartMachine = () => {
   return (
     <>
       <div className="banner">
-        <img src='./public/assets/productbanner.jpeg' alt='' className="banner-image" /> 
+        <img src='./public/assets/Productbanner.jpeg' alt='' className="banner-image" /> 
         <div className="banner-caption">
           <h1>Smart Machine</h1>
         </div>
@@ -36,7 +36,7 @@ const SmartMachine = () => {
       </div>
       <div className="product-container" style={{backgroundColor:'rgba(240, 248, 255, 0.271)'}}>
         <div className="product-image-container">
-          <img src="./public/assets/indus-gov.jpeg" alt="Your Image" />
+          <img src="./public/assets/Indus-gov.jpeg" alt="Your Image" />
         </div>
         <div className="product-content-container">
           <h1 className='mb-4'>Product Capabilities</h1>
@@ -90,7 +90,7 @@ const SmartMachine = () => {
       </div>
       <div className="product-container" style={{backgroundColor:'rgba(240, 248, 255, 0.271)'}}>
         <div className="product-image-container">
-          <img src="./public/assets/SystemEnt.png" alt="Your Image" />
+          <img src="./public/assets/System_Ent.png" alt="Your Image" />
         </div>
         <div className="product-content-container">
           <h1 className='mb-4'>Product Capabilities</h1>
@@ -144,7 +144,7 @@ const SmartMachine = () => {
       </div>
       <div className="product-container" style={{backgroundColor:'rgba(240, 248, 255, 0.271)'}}>
         <div className="product-image-container">
-          <img src="./public/assets/PLCSCADA.jpeg" alt="Your Image" />
+          <img src="./public/assets/PLC_SCADA.jpeg" alt="Your Image" />
         </div>
         <div className="product-content-container">
           <h1 className='mb-4'>Product Capabilities</h1>

@@ -1,14 +1,14 @@
 import React from 'react'
 import ContactImp from '../../Components/ContactImp';
 import { MdOutlineTimerOff, MdCallSplit, MdOutlineSettings } from "react-icons/md";
-import { PiUserFocusFill, PiFingerprintLight,  PiHandTap,  PiTrendUpFill } from "react-icons/pi";
-import { MdContactEmergency, MdVerifiedUser, MdSensorOccupied, MdOutlineRoomPreferences } from "react-icons/md";
+import {   PiHandTap,  PiTrendUpFill } from "react-icons/pi";
+import {  MdVerifiedUser, MdSensorOccupied, MdOutlineRoomPreferences } from "react-icons/md";
 
 const Machine = () => {
   return (
     <>
       <div className="banner">
-        <img src='./public/assets/foodbevmachine.jpg' alt='' className="banner-image " /> 
+        <img src='./public/assets/Foodbevmachine.jpg' alt='' className="banner-image " /> 
         <div className="banner-caption" style={{fontSize:'1.9em',fontWeight:'800px', color:'orange'} }>
           <li>Machine Monitoring</li>
           <li>Condition Based Monitoring</li>
@@ -65,7 +65,7 @@ const Machine = () => {
         </div>
         <div className='choosen-box1 ' style={{backgroundColor:'rgba(240, 248, 255, 0.407)'}}>
           <div className='item-choosen1'>
-            <img src="./public/assets/Robotics.jpeg" width={530} height={300} alt="" style={{borderRadius:'18px', marginBottom:'1em'}}/>
+            <img src="./public/assets/Robotics-Img.jpeg" width={530} height={300} alt="" style={{borderRadius:'18px', marginBottom:'1em'}}/>
           </div>
           <div className=' item-choosen2'>
             <h1>Condition Based Monitoring & Maintenance</h1>
@@ -91,7 +91,7 @@ const Machine = () => {
             </p>
           </div>
           <div className='item-choosen1' style={{marginRight:'0.2em', borderRadius:'18px 0px'}}>
-              <img src="./public/assets/PLCSCADA.jpeg" width={530} height={300} alt="" style={{borderRadius:'18px 0px', marginTop:'1em'}}/>
+              <img src="./public/assets/PLC_SCADA.jpeg" width={530} height={300} alt="" style={{borderRadius:'18px 0px', marginTop:'1em'}}/>
           </div>
         </div>
 

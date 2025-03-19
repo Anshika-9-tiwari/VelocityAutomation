@@ -4,15 +4,15 @@ import CapabilitiesCard from './CapabilitiesCard'
 const CapabilityCardList5 = () => {
   const cardData5 =[
     {
-      image: "./public/assets/PPEMonitoring.png",
+      image: "./public/assets/PPE-Monitoring.png",
       title: 'Vision Inspection of Part Hole and Pocket Count Detection'
     },
     {
-      image: "./public/assets/Robotics.jpeg",
+      image: "./public/assets/Robotics-Img.jpeg",
       title: 'Vision Inspection of Cross Car Beam (CCB)'
     },
     {
-      image: "./public/assets/IndusFac.jpg",
+      image: "./public/assets/IndustryFac.jpg",
       title: 'Digital Quality Inspection Solution for Auto Parts Manufacturing'
     }
   ]

@@ -5,7 +5,7 @@ const Steel = () => {
   return (
     <>
       <div className="banner">
-        <img src='./public/assets/industrybanner.jpeg' alt='' className="banner-image" /> 
+        <img src='./public/assets/Industrybanner.jpeg' alt='' className="banner-image" /> 
         <div className="banner-caption">
           <h1>Steel Industry</h1>
           <p style={{margin:'1.7em 0em '}}>AI Steeling the Way: Revolutionizing the Metal Industry with Cutting Edge Technology</p>
@@ -30,7 +30,7 @@ const Steel = () => {
         <div className="container" style={{backgroundColor:'#fafdfd'}}>
           <div className="image-container">
             <img
-              src="./public/assets/SteelPlants.jpeg"
+              src="./public/assets/SteelPlant.jpeg"
               alt="Descriptive Alt Text"
               className="responsive-image"
             />
@@ -51,7 +51,7 @@ const Steel = () => {
           </div>
           <div className="image-container">
             <img
-              src="./public/assets/PLCSCADA.jpeg"
+              src="./public/assets/PLC_SCADA.jpeg"
               alt="Descriptive Alt Text"
               className="responsive-image"
             />

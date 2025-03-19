@@ -4,15 +4,15 @@ import CapabilitiesCard from './CapabilitiesCard';
 const CapabilityCardList1 = () => {
   const cardData1 = [
     {
-      image: "./public/assets/PPEMonitoring.png",
+      image: "./public/assets/PPE-Monitoring.png",
       title: 'PPE Monitoring solution for leading automotive component manufacturer'
     },
     {
-      image: "./public/assets/SystemEnt.png",
+      image: "./public/assets/System_Ent.png",
       title: 'Part Defect Detection for Leading Component Manufacturer'
     },
     {
-      image: "./public/assets/FaceRecog.png",
+      image: "./public/assets/Face_Recog.png",
       title: 'Face Recognition for Leading Automotive Component Manufacturer'
     }
   ];

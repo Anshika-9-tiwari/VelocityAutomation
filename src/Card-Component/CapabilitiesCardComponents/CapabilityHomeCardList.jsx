@@ -5,29 +5,29 @@ import { Link } from 'react-router-dom'
 const CapabilityHomeCardList = () => {
   const homeCard1 =[
     {
-      image: "./public/assets/AI-Pic.jpeg",
+      image: "./public/assets/AI_Pic.jpeg",
       title: 'Artificial Intelligence'
     },
     {
-      image: "./public/assets/plcprogramming.jpeg",
+      image: "./public/assets/plc_programming.jpeg",
       title: 'Computer Vision'
     },
     {
-      image: "./public/assets/Robotics.jpeg",
+      image: "./public/assets/Robotics-Img.jpeg",
       title: 'Robotics'
     }
   ]
   const homeCard2 =[
     {
-      image: "./public/assets/IOT banner.jpeg",
+      image: "./public/assets/IOT_Banner.jpeg",
       title: 'IIOT'
     },
     {
-      image: "./public/assets/SystemEnt.png",
+      image: "./public/assets/System_Ent.png",
       title: 'System Integration'
     },
     {
-      image: "./public/assets/Cloud.jpeg",
+      image: "./public/assets/cloud.jpeg",
       title: 'Cloud Computing'
     }
   ]

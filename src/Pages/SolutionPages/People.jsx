@@ -8,7 +8,7 @@ const People = () => {
   return (
    <>
      <div className="banner">
-        <img src='./public/assets/GroupEngineer.jpg' alt='' className="banner-image " /> 
+        <img src='./public/assets/Group_Engineer.jpg' alt='' className="banner-image " /> 
         <div className="banner-caption" style={{fontSize:'1.8em',fontWeight:'600', color:'white'} }>
           <li>Face Recognition</li>
           <li>Workforce Cost Analysis</li>
@@ -71,7 +71,7 @@ const People = () => {
             </p>
           </div>
           <div className='item-choosen1' style={{marginRight:'0.2em', borderRadius:'18px 0px'}}>
-              <img src="./public/assets/FaceRecog.png" width={530} height={300} alt="" style={{borderRadius:'18px 0px', marginTop:'1em'}}/>
+              <img src="./public/assets/Face_Recog.png" width={530} height={300} alt="" style={{borderRadius:'18px 0px', marginTop:'1em'}}/>
           </div>
         </div>
 

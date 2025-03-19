@@ -7,7 +7,7 @@ const SmartVision = () => {
   return (
     <>
       <div className="banner">
-        <img src='./public/assets/productbanner.jpeg' alt='' className="banner-image" /> 
+        <img src='./public/assets/Productbanner.jpeg' alt='' className="banner-image" /> 
         <div className="banner-caption">
           <h1>Smart Vision</h1>
         </div>
@@ -35,7 +35,7 @@ const SmartVision = () => {
       </div>
       <div className="product-container" style={{backgroundColor:'rgba(240, 248, 255, 0.271)'}}>
         <div className="product-image-container">
-          <img src="./public/assets/Software&ScadaSystem.png" alt="Your Image" />
+          <img src="./public/assets/Software&ScadaSys.png" alt="Your Image" />
         </div>
         <div className="product-content-container">
           <h1 className='mb-4'>Product Capabilities</h1>
@@ -69,7 +69,7 @@ const SmartVision = () => {
 
       <div className='choosen-box1 '>
         <div className='item-choosen1'>
-            <img src="./public/assets/PLCSCADA.jpeg" width={530} height={300} alt="" style={{borderRadius:'18px', marginBottom:'1em'}}/>
+            <img src="./public/assets/PLC_SCADA.jpeg" width={530} height={300} alt="" style={{borderRadius:'18px', marginBottom:'1em'}}/>
         </div>
         <div className=' item-choosen2'>
           <h1>Anomaly Detection</h1>
@@ -98,7 +98,7 @@ const SmartVision = () => {
 
       <div className='choosen-box1 '>
         <div className='item-choosen1'>
-            <img src="./public/assets/PLCProtocol.jpeg" width={530} height={300} alt="" style={{borderRadius:'18px', marginBottom:'1em'}}/>
+            <img src="./public/assets/PLC_Protocol.jpeg" width={530} height={300} alt="" style={{borderRadius:'18px', marginBottom:'1em'}}/>
         </div>
         <div className=' item-choosen2'>
           <h1>Object Segmentation & Classification</h1>
@@ -121,12 +121,12 @@ const SmartVision = () => {
           </p>
         </div>
         <div className='item-choosen1' style={{marginRight:'0.2em', borderRadius:'18px 0px'}}>
-            <img src="./public/assets/VisualDefect.png" width={530} height={300} alt="" style={{borderRadius:'18px 0px', marginTop:'1em'}}/>
+            <img src="./public/assets/Visual-Defect.png" width={530} height={300} alt="" style={{borderRadius:'18px 0px', marginTop:'1em'}}/>
         </div>
       </div>
       <div className='choosen-box1 '>
         <div className='item-choosen1'>
-            <img src="./public/assets/Robotics.jpeg" width={530} height={300} alt="" style={{borderRadius:'18px', marginBottom:'1em'}}/>
+            <img src="./public/assets/Robotics-Img.jpeg" width={530} height={300} alt="" style={{borderRadius:'18px', marginBottom:'1em'}}/>
         </div>
         <div className=' item-choosen2'>
           <h1>Object Measurement</h1>

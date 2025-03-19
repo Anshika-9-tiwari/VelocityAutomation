@@ -4,15 +4,15 @@ import CapabilitiesCard from './CapabilitiesCard'
 const CapabilityCardList3 = () => {
   const cardData3 =[
     {
-      image: "./public/assets/WorkforceCost.jpeg",
+      image: "./public/assets/Work_forceCost.jpeg",
       title: 'Workforce cost analytics'
     },
     {
-      image: "./public/assets/soflifting.png",
+      image: "./public/assets/Soflifting.png",
       title: 'Shoplifting Detection'
     },
     {
-      image: "./public/assets/EnergyMonitoring .jpg",
+      image: "./public/assets/Energy_Monitoring .jpg",
       title: 'Energy Monitoring'
     }
   ]

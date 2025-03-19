@@ -9,7 +9,7 @@ const SmartWorker = () => {
   return (
     <>
       <div className="banner">
-        <img src='./public/assets/productbanner.jpeg' alt='' className="banner-image" /> 
+        <img src='./public/assets/Productbanner.jpeg' alt='' className="banner-image" /> 
         <div className="banner-caption">
           <h1>Smart Worker</h1>
         </div>
@@ -21,7 +21,7 @@ const SmartWorker = () => {
 
     <div className="main-div">
       <div className="image-div">
-        <img src="./public/assets/FaceRecog.png" alt="Products-smart-worker" />
+        <img src="./public/assets/Face_Recog.png" alt="Products-smart-worker" />
       </div>
       <div className="text-div">
         <h1>Facial Recognition</h1>
@@ -32,7 +32,7 @@ const SmartWorker = () => {
     </div>
     <div className="product-container">
       <div className="product-image-container">
-        <img src="./public/assets/plcprogramming.jpeg" alt="Your Image" />
+        <img src="./public/assets/plc_programming.jpeg" alt="Your Image" />
       </div>
       <div className="product-content-container">
         <h1 className='mb-4'>Product Features</h1>
@@ -75,12 +75,12 @@ const SmartWorker = () => {
         </p>
       </div>
       <div className="image-div">
-        <img src="./public/assets/WorkforceCost.jpeg" alt="Products-smart-worker" />
+        <img src="./public/assets/Workforce_Cost.jpeg" alt="Products-smart-worker" />
       </div>
     </div>
     <div className="product-container">
       <div className="product-image-container">
-        <img src="./public/assets/PLCProtocol.jpeg" alt="Your Image" />
+        <img src="./public/assets/PLC_Protocol.jpeg" alt="Your Image" />
       </div>
       <div className="product-content-container">
         <h1 className='mb-4'>Product Features</h1>
@@ -114,7 +114,7 @@ const SmartWorker = () => {
 
     <div className="main-div">
       <div className="image-div">
-        <img src="./public/assets/saleforce.png" alt="Products-smart-worker" />
+        <img src="./public/assets/Saleforce.png" alt="Products-smart-worker" />
       </div>
       <div className="text-div">
         <h1>Field Salesforce Monitoring</h1>
@@ -131,7 +131,7 @@ const SmartWorker = () => {
     </div>
     <div className="product-container">
       <div className="product-image-container">
-        <img src="./public/assets/plcprogramming.jpeg" alt="Your Image" />
+        <img src="./public/assets/plc_programming.jpeg" alt="Your Image" />
       </div>
       <div className="product-content-container">
         <h1 className='mb-4'>Product Features</h1>
@@ -174,12 +174,12 @@ const SmartWorker = () => {
         </p>
       </div>
       <div className="image-div">
-        <img src="./public/assets/SystemEnt.png" alt="Products-smart-worker" />
+        <img src="./public/assets/System_Ent.png" alt="Products-smart-worker" />
       </div>
     </div>
     <div className="product-container">
       <div className="product-image-container">
-        <img src="./public/assets/Software&ScadaSystem.png" alt="Your Image" />
+        <img src="./public/assets/Software&ScadaSys.png" alt="Your Image" />
       </div>
       <div className="product-content-container">
         <h1 className='mb-4'>Product Features</h1>
@@ -213,7 +213,7 @@ const SmartWorker = () => {
 
     <div className="main-div">
       <div className="image-div">
-        <img src="./public/assets/PPEMonitoring.png" alt="Products-smart-worker" />
+        <img src="./public/assets/PPE-Monitoring.png" alt="Products-smart-worker" />
       </div>
       <div className="text-div">
         <h1>PPE Monitoring</h1>
@@ -230,7 +230,7 @@ const SmartWorker = () => {
     </div>
     <div className="product-container">
       <div className="product-image-container">
-        <img src="./public/assets/PLCProtocol.jpeg" alt="Your Image" />
+        <img src="./public/assets/PLC_Protocol.jpeg" alt="Your Image" />
       </div>
       <div className="product-content-container">
         <h1 className='mb-4'>Product Features</h1>

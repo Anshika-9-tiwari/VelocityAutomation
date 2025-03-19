@@ -8,7 +8,7 @@ function Solutions() {
         <div className='solution-heading'><span><h1>Revolutionize Digitally with Industry Solutions</h1></span></div>
           <div className="two-div-section">
             <div className="solution-image-container">
-            <img src="./public/assets/GroupEngineer.jpg" alt="Images" /> 
+            <img src="./public/assets/Group_Engineer.jpg" alt="Images" /> 
             </div>
             <div className="content-container">
               <h2>People</h2>
@@ -37,7 +37,7 @@ function Solutions() {
             </div>
 
             <div className="solution-image-container">
-            <img src="./public/assets/foodbevmachine.jpg" alt="Images" /> 
+            <img src="./public/assets/Foodbevmachine.jpg" alt="Images" /> 
             </div>
             <div className="content-container">
               <h2>Machine</h2>
@@ -71,7 +71,7 @@ function Solutions() {
               </ul>
             </div>
             <div className="solution-image-container">
-            <img src="./public/assets/WorkforceCost.jpeg" alt="Images" /> 
+            <img src="./public/assets/Workforce_ Cost.jpeg" alt="Images" /> 
             </div>
 
             <div className="content-container">
@@ -84,11 +84,11 @@ function Solutions() {
               </ul>
             </div>
             <div className="solution-image-container">
-            <img src="./public/assets/PLCSCADA.jpeg" alt="Images" /> 
+            <img src="./public/assets/PLC_SCADA.jpeg" alt="Images" /> 
             </div>
 
             <div className="solution-image-container">
-            <img src="./public/assets/security.png" alt="Images" /> 
+            <img src="./public/assets/Security.png" alt="Images" /> 
             </div>
             <div className="content-container">
               <h2>Security</h2>
@@ -109,7 +109,7 @@ function Solutions() {
             </div>
 
             <div className="solution-image-container">
-            <img src="./public/assets/SteelPlants.jpeg" alt="Images" /> 
+            <img src="./public/assets/SteelPlant.jpeg" alt="Images" /> 
             </div>
             <div className="content-container">
               <h2>Material</h2>

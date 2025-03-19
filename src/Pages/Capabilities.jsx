@@ -24,7 +24,7 @@ function Capabilities() {
       <div id="artificial-intelligence">
         <div className='capability-container'>
           <div className='capability-content1'>
-            <span><img src="./public/assets/AI-Pic.jpeg" alt="" /></span>
+            <span><img src="./public/assets/AI_Pic.jpeg" alt="" /></span>
           </div>
           <div className='capability-content2'>
             <h1  style={{color:'blueviolet'}}>Artificial Intelligence</h1>
@@ -43,7 +43,7 @@ function Capabilities() {
      {/*computer vision */}
      <div className='capability-container'>
         <div className='capability-content1'>
-          <span><img src="./public/assets/plcprogramming.jpeg" alt="" /></span>
+          <span><img src="./public/assets/plc_programming.jpeg" alt="" /></span>
         </div>
         <div className='capability-content2'>
           <h1  style={{color:'blueviolet'}}>Computer Vision</h1>
@@ -60,7 +60,7 @@ function Capabilities() {
      {/*Data and Analytics   */}
      <div className='capability-container'>
         <div className='capability-content1'>
-          <span><img src="./public/assets/DataAnalytics.jpg" alt=""  /></span>
+          <span><img src="./public/assets/Data_Analytics.jpg" alt=""  /></span>
         </div>
         <div className='capability-content2'>
           <h1  style={{color:'blueviolet'}}>Data and Analytics </h1>
@@ -78,7 +78,7 @@ function Capabilities() {
      {/*IIOT  */}
      <div className='capability-container'>
         <div className='capability-content1'>
-          <span><img src="./public/assets/IOT banner.jpeg" alt=""  /></span>
+          <span><img src="./public/assets/IOT_banner.jpeg" alt=""  /></span>
         </div>
         <div className='capability-content2'>
           <h1  style={{color:'blueviolet'}}>IIOT </h1>
@@ -97,7 +97,7 @@ function Capabilities() {
      {/*Robotics*/}
       <div className='capability-container'>
         <div className='capability-content1'>
-          <span><img src="./public/assets/Robotics.jpeg" alt=""  /></span>
+          <span><img src="./public/assets/Robotics-Img.jpeg" alt=""  /></span>
         </div>
         <div className='capability-content2'>
           <h1  style={{color:'blueviolet'}}>Robotics</h1>
@@ -115,7 +115,7 @@ function Capabilities() {
      {/*Cloud Computing*/}
      <div className='capability-container'>
         <div className='capability-content1'>
-          <span><img src="./public/assets/Cloud.jpeg" alt=""  /></span>
+          <span><img src="./public/assets/cloud.jpeg" alt=""  /></span>
         </div>
         <div className='capability-content2'>
           <h1  style={{color:'blueviolet'}}>Cloud Computing</h1>
@@ -134,7 +134,7 @@ function Capabilities() {
      {/*System Integration*/}
      <div className='capability-container'>
         <div className='capability-content1'>
-          <span><img src="./public/assets/SystemEnt.png" alt=""  /></span>
+          <span><img src="./public/assets/System_Ent.png" alt=""  /></span>
         </div>
         <div className='capability-content2'>
           <h1  style={{color:'blueviolet'}}>System Integration</h1>

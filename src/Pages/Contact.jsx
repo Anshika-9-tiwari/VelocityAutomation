@@ -7,7 +7,7 @@ function Contact() {
   return (
     <>
       <div className="banner">
-        <img src='./public/assets/contactbanner.jpeg' alt='' className="banner-image " /> 
+        <img src='./public/assets/Contactbanner.jpeg' alt='' className="banner-image " /> 
         <div className="banner-caption">
           <h1>Contact Us</h1>
         </div>

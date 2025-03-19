@@ -9,15 +9,15 @@ const SmartVisionCard = () => {
     title: 'Anomaly Detection',
   },
   {
-    image: "./public/assets/SystemEnt.png",
+    image: "./public/assets/System_Ent.png",
     title: 'Object Presence Detection'
   },
   {
-    image: "./public/assets/Objectsegmen.png",
+    image: "./public/assets/Object_Segmen.png",
     title: 'Object Segmentation',
   },
   {
-    image: "./public/assets/VisualDefect.png",
+    image: "./public/assets/Visual_Defect.png",
     title: 'Visual Defect Detection',
   }
 ]

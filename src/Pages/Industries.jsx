@@ -8,7 +8,7 @@ function Industries() {
   return (
     <>
       <div className="banner">
-        <img src='./public/assets/industrybanner.jpeg' alt='' className="banner-image" /> 
+        <img src='./public/assets/Industrybanner.jpeg' alt='' className="banner-image" /> 
         <div className="banner-caption">
           <h1>Automotive Industry</h1>
           <p style={{margin:'1.7em 0em '}}>Driving Innovation, Powering Performance</p>
@@ -35,7 +35,7 @@ function Industries() {
          <div className="container" style={{backgroundColor:'#fafdfd'}}>
           <div className="image-container">
             <img
-              src="./public/assets/PPEMonitoring.png"
+              src="./public/assets/PPE-Monitoring.png"
               alt="Descriptive Alt Text"
               className="responsive-image"
             />
@@ -62,7 +62,7 @@ function Industries() {
           </div>
           <div className="image-container">
             <img
-              src="./public/assets/machineMonitoring.jpg"
+              src="./public/assets/MachineMonitoring.jpg"
               alt="Descriptive Alt Text"
               className="responsive-image"
             />
@@ -71,7 +71,7 @@ function Industries() {
         <div style={{backgroundColor:'#fafdfd'}} className="container">
           <div className="image-container">
             <img
-              src="./public/assets/EnergyMonitoring .jpg"
+              src="./public/assets/Energy_Monitoring .jpg"
               alt="Descriptive Alt Text"
               className="responsive-image"
             />
@@ -98,7 +98,7 @@ function Industries() {
           </div>
           <div className="image-container">
             <img
-              src="./public/assets/IndusFac.jpg"
+              src="./public/assets/IndustryFac.jpg"
               alt="Descriptive Alt Text"
               className="responsive-image"
             />

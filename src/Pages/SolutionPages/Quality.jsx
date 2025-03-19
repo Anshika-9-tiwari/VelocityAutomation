@@ -9,7 +9,7 @@ const Quality = () => {
   return (
     <>
       <div className="banner">
-        <img src='./public/assets/PLCSCADA.jpeg' alt='' className="banner-image " /> 
+        <img src='./public/assets/PLC_SCADA.jpeg' alt='' className="banner-image " /> 
         <div className="banner-caption" style={{fontWeight:'800px', color:'orange'} }>
           <h1>Quality Inspection</h1>
         </div>
@@ -72,7 +72,7 @@ const Quality = () => {
             </p>
           </div>
           <div className='item-choosen1' style={{marginRight:'0.2em', borderRadius:'18px 0px'}}>
-              <img src="./public/assets/SystemEnt.png" width={530} height={300} alt="" style={{borderRadius:'18px 0px', marginTop:'1em'}}/>
+              <img src="./public/assets/System_Ent.png" width={530} height={300} alt="" style={{borderRadius:'18px 0px', marginTop:'1em'}}/>
           </div>
         </div>
 

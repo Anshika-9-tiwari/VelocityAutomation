@@ -2,12 +2,11 @@ import React from 'react'
 
 import ContactImp from '../ContactImp'
 
-
 const FoodBeverages = () => {
   return (
     <>
      <div className="banner">
-        <img src='./public/assets/foodbeverages.jpeg' alt='' className="banner-image" /> 
+        <img src='./public/assets/Foodbeverages.jpeg' alt='' className="banner-image" /> 
         <div className="banner-caption">
           <h1>Food & Beverages</h1>
           <p style={{margin:'1.7em 0em '}}>Smart Taste, Savvy Choices: AI Revolutionizing Food and Beverages</p>
@@ -35,7 +34,7 @@ const FoodBeverages = () => {
         <div className="container" style={{backgroundColor:'#fafdfd'}}>
           <div className="image-container">
             <img
-              src="./public/assets/img2.jpg"
+              src="./public/assets/Img2.jpg"
               alt="Descriptive Alt Text"
               className="responsive-image"
             />
@@ -62,7 +61,7 @@ const FoodBeverages = () => {
           </div>
           <div className="image-container">
             <img
-              src="./public/assets/drinkbottle.jpeg"
+              src="./public/assets/Drinkbottle.jpeg"
               alt="Descriptive Alt Text"
               className="responsive-image"
             />
@@ -71,7 +70,7 @@ const FoodBeverages = () => {
         <div style={{backgroundColor:'#fafdfd'}} className="container">
           <div className="image-container">
             <img
-              src="./public/assets/img2.jpg"
+              src="./public/assets/Img2.jpg"
               alt="Descriptive Alt Text"
               className="responsive-image"
             />
@@ -98,7 +97,7 @@ const FoodBeverages = () => {
           </div>
           <div className="image-container">
             <img
-              src="./public/assets/foodbevmachine.jpg"
+              src="./public/assets/Foodbevmachine.jpg"
               alt="Descriptive Alt Text"
               className="responsive-image"
             />

@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="logo"><img src="./public/assets/VelocityALogo1.png" alt="" width={200}/></div>
+      <div className="logo"><img src="./public/assets/Velocity-ALogo1.png" alt="" width={200}/></div>
       <ul className={`nav-links ${isMobile ? "mobile" : ""}`}>
         <li>
           <a href="/">Home</a>

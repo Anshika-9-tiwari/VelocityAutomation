@@ -4,11 +4,11 @@ import CapabilitiesCard from './CapabilitiesCard'
 const CapabilityCardList6 = () => {
   const cardData6 =[
     {
-      image: "./public/assets/PPEMonitoring.png",
+      image: "./public/assets/PPE-Monitoring.png",
       title: 'Die Tracking & Maintenance for Leading Passenger Vehicles Manufacturers'
     },
     {
-      image: "./public/assets/SystemEnt.png",
+      image: "./public/assets/System_Ent.png",
       title: 'Field Salesforce Monitoring for Leading Quick Service Restaurant Operators'
     }
   ]

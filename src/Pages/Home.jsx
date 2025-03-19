@@ -12,7 +12,7 @@ function Home() {
           <div className='carousel-container'>
             <Carousel>
               <Carousel.Item>
-                <img src="./public/assets/banner22.jpg" alt="" width={1300} height={450}  />
+                <img src="./public/assets/Banner22.jpg" alt="" width={1300} height={450}  />
                 <Carousel.Caption>
                     <h1 className='caption-h1'>INDUSTRIAL AUTOMATION & <br/>AUTOMATION SERVICE</h1>
                     <p className='caption-p1 '>
@@ -22,7 +22,7 @@ function Home() {
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
-                <img src="./public/assets/banner11.jpg" alt="" width={1300} height={450}  />
+                <img src="./public/assets/Banner11.jpg" alt="" width={1300} height={450}  />
                 <Carousel.Caption>
                     <h1 className='caption-h1'>INDUSTRIAL AUTOMATION & <br/>AUTOMATION SERVICE</h1>
                     <p className='caption-p1 '>
@@ -32,7 +32,7 @@ function Home() {
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
-                <img src="./public/assets/banner22.jpg" alt="" width={1300} height={450}  />
+                <img src="./public/assets/Banner22.jpg" alt="" width={1300} height={450}  />
                 <Carousel.Caption>
                     <h1 className='caption-h1'>INDUSTRIAL AUTOMATION & <br/>AUTOMATION SERVICE</h1>
                     <p className='caption-p1'>
@@ -66,7 +66,7 @@ function Home() {
           {/* Choosen us */}
           <div className='choosen-box1 '>
             <div className='item-choosen1'>
-                <img src="./public/assets/Robotics.jpeg" width={530} height={300} alt="" style={{borderRadius:'18px', marginBottom:'1em'}}/>
+                <img src="./public/assets/Robotics-Img.jpeg" width={530} height={300} alt="" style={{borderRadius:'18px', marginBottom:'1em'}}/>
             </div>
             <div className=' item-choosen2'>
               <h1>Industry  Redefined</h1>
@@ -83,7 +83,7 @@ function Home() {
               </p>
             </div>
             <div className='item-choosen1' style={{marginRight:'0.2em', borderRadius:'18px 0px'}}>
-                <img src="./public/assets/PLCSCADA.jpeg" width={530} height={300} alt="" style={{borderRadius:'18px 0px', marginTop:'1em'}}/>
+                <img src="./public/assets/PLC_SCADA.jpeg" width={530} height={300} alt="" style={{borderRadius:'18px 0px', marginTop:'1em'}}/>
             </div>
           </div>
       </div>  

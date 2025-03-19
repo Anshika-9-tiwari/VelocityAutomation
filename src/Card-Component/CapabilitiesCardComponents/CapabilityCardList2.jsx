@@ -4,15 +4,15 @@ import CapabilitiesCard from './CapabilitiesCard';
 const CapabilityCardList2 = () => {
   const cardData2 = [
     {
-      image: "./public/assets/realimg.jpg",
+      image: "./public/assets/Realimg.jpg",
       title: 'Quality label inspection solution for leading brewery'
     },
     {
-      image: "./public/assets/img2.jpg",
+      image: "./public/assets/Img2.jpg",
       title: 'Filled Bottle Inspection for leading brewery company'
     },
     {
-      image: "./public/assets/bottelstock.jpg",
+      image: "./public/assets/Bottelstock.jpg",
       title: 'Empty bottle quality inspection for leading brewery & beverages company'
     }
   ];
