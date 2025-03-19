@@ -90,3 +90,35 @@ export default ResponsiveDiv;
     width: 48%; 
   }
 }
+
+<Carousel>
+                  <Carousel.Item>
+                    <img src="./public/assets/banner22.jpg" alt="" width={1300} height={400}  />
+                    <Carousel.Caption>
+                        <h1 className='caption-h1'></h1>
+                        <p className='caption-p1 '>
+                            
+                        </p>
+                        
+                    </Carousel.Caption>
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img src="./public/assets/banner11.jpg" alt="" width={1300} height={400}  />
+                    <Carousel.Caption>
+                        <h1 className='caption-h1'>INDUSTRIAL AUTOMATION & <br/>AUTOMATION SERVICE</h1>
+                        <p className='caption-p1 '>
+                           Transforming Infinite Possibilities into <br /> Products & Solutions
+                        </p>
+                      
+                    </Carousel.Caption>
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img src="./public/assets/banner22.jpg" alt="" width={1300} height={400}  />
+                    <Carousel.Caption>
+                        <h1 className='caption-h1'>INDUSTRIAL AUTOMATION & <br/>AUTOMATION SERVICE</h1>
+                        <p className='caption-p1'>
+                           Transforming Infinite Possibilities into <br /> Products & Solutions
+                        </p>
+                    </Carousel.Caption>
+                  </Carousel.Item>
+                </Carousel>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Carousel from 'react-bootstrap/Carousel';
+import { Carousel } from 'react-bootstrap';
 import CompanyLogos from '../Components/CompanyLogos';
 import Solutions from './Solutions';
 import CapabilityHomeCardList from '../Card-Component/CapabilitiesCardComponents/CapabilityHomeCardList';
@@ -11,36 +11,36 @@ function Home() {
       <div className='Container'>
           <div className='carousel-container'>
             <Carousel>
-                  <Carousel.Item>
-                    <img src="./public/assets/banner22.jpg" alt="" width={1300} height={400}  />
-                    <Carousel.Caption>
-                        <h1 className='caption-h1'>INDUSTRIAL AUTOMATION & <br/>AUTOMATION SERVICE</h1>
-                        <p className='caption-p1 '>
-                            Transforming Infinite Possibilities into <br /> Products & Solutions
-                        </p>
-                        
-                    </Carousel.Caption>
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img src="./public/assets/banner11.jpg" alt="" width={1300} height={400}  />
-                    <Carousel.Caption>
-                        <h1 className='caption-h1'>INDUSTRIAL AUTOMATION & <br/>AUTOMATION SERVICE</h1>
-                        <p className='caption-p1 '>
-                           Transforming Infinite Possibilities into <br /> Products & Solutions
-                        </p>
-                      
-                    </Carousel.Caption>
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img src="./public/assets/banner22.jpg" alt="" width={1300} height={400}  />
-                    <Carousel.Caption>
-                        <h1 className='caption-h1'>INDUSTRIAL AUTOMATION & <br/>AUTOMATION SERVICE</h1>
-                        <p className='caption-p1'>
-                           Transforming Infinite Possibilities into <br /> Products & Solutions
-                        </p>
-                    </Carousel.Caption>
-                  </Carousel.Item>
-                </Carousel>
+              <Carousel.Item>
+                <img src="./public/assets/banner22.jpg" alt="" width={1300} height={450}  />
+                <Carousel.Caption>
+                    <h1 className='caption-h1'>INDUSTRIAL AUTOMATION & <br/>AUTOMATION SERVICE</h1>
+                    <p className='caption-p1 '>
+                        Transforming Infinite Possibilities into <br /> Products & Solutions
+                    </p>
+                    
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img src="./public/assets/banner11.jpg" alt="" width={1300} height={450}  />
+                <Carousel.Caption>
+                    <h1 className='caption-h1'>INDUSTRIAL AUTOMATION & <br/>AUTOMATION SERVICE</h1>
+                    <p className='caption-p1 '>
+                        Transforming Infinite Possibilities into <br /> Products & Solutions
+                    </p>
+                  
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img src="./public/assets/banner22.jpg" alt="" width={1300} height={450}  />
+                <Carousel.Caption>
+                    <h1 className='caption-h1'>INDUSTRIAL AUTOMATION & <br/>AUTOMATION SERVICE</h1>
+                    <p className='caption-p1'>
+                        Transforming Infinite Possibilities into <br /> Products & Solutions
+                    </p>
+                </Carousel.Caption>
+              </Carousel.Item>
+            </Carousel>
           </div>  
 
 
