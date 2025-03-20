@@ -11,7 +11,7 @@ import {Link} from 'react-router-dom'
             <div className=" border rounded-lg shadow-lg p-4 ">
               <div className="card">
                   <Link to="automotive" style={{textDecoration:'none'}}>
-                    <img src="./public/assets/Robotics_Img.jpeg" alt="title" className="card-image-top" />
+                    <img src="./public/assets/Robotics-Img.jpeg" alt="title" className="card-image-top" />
                     <div className="card-body">
                       <h2 className="card-title">Automotive</h2>
                       <p className="card-text">Driving Innovation, Powering Performance</p>

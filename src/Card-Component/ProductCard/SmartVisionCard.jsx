@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 const SmartVisionCard = () => {
   const cardData2 =[
   {
-    image: "./public/assets/PLCSCADA.jpeg",
+    image: "./public/assets/PLC_SCADA.jpeg",
     title: 'Anomaly Detection',
   },
   {
@@ -17,7 +17,7 @@ const SmartVisionCard = () => {
     title: 'Object Segmentation',
   },
   {
-    image: "./public/assets/Visual_Defect.png",
+    image: "./public/assets/Visual-Defect.png",
     title: 'Visual Defect Detection',
   }
 ]

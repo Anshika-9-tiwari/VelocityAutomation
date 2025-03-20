@@ -14,7 +14,7 @@ function Footer() {
       <footer className="footer">
             <div className="footer-container">
                 <div className="footer-section">
-                    <img src="./public/assets/VelocityALogo1.png" alt="" width={200} className='mb-3 pt-0' />
+                    <img src="./public/assets/Velocity-ALogo1.png" alt="" width={200} className='mb-3 pt-0' />
                     <p className='p1' >VELOCITY Automation was established to meet the demand of industrial Automation requirements in PLC/DCS/MES/SCADA. We offer end to engineering  solutions from project conceptualization; engineering dexsign and development to commissioning service for process industries assisted with   onshore & offshore 24*7 service support. </p>
                 </div>
                 <div className="footer-section">

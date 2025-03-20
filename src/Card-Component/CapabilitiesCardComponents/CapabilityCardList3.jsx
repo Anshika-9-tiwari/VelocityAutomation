@@ -4,7 +4,7 @@ import CapabilitiesCard from './CapabilitiesCard'
 const CapabilityCardList3 = () => {
   const cardData3 =[
     {
-      image: "./public/assets/Work_forceCost.jpeg",
+      image: "./public/assets/Workforce_Cost.jpeg",
       title: 'Workforce cost analytics'
     },
     {

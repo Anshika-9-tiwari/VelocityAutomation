@@ -71,7 +71,7 @@ function Solutions() {
               </ul>
             </div>
             <div className="solution-image-container">
-            <img src="./public/assets/Workforce_ Cost.jpeg" alt="Images" /> 
+            <img src="./public/assets/Workforce_Cost.jpeg" alt="Images" /> 
             </div>
 
             <div className="content-container">
