@@ -56,8 +56,10 @@ const ContactForm = () => {
         <div className=' contact-box' >
             <h2>Address:</h2>
             <p style={{borderBottom:'1px solid black', marginBottom:'35px'}}>Plot No. 23/34 , Faridabad Sector 28 ,  Haryana 121003</p>
+            <h2>Email:</h2>
+            <p style={{borderBottom:'1px solid black', marginBottom:'35px'}}>info@velocityautomation.co.in</p>
             <h2>Phone:</h2>
-            <p style={{borderBottom:'1px solid black', marginBottom:'35px'}}>+91-9582793686</p>
+            <p style={{borderBottom:'1px solid black', marginBottom:'35px'}}>+91 9582793686 / +91 9818293887</p>
             <h2>Office Hours:</h2>
             <p style={{borderBottom:'1px solid black', marginBottom:'35px'}}>Monday - Saturday: 9AM - 6PM</p>        
         </div>
